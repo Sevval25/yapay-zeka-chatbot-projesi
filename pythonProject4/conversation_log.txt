@@ -1,0 +1,77 @@
+Kullanıcı: ürünün fiyatı
+Bot: Ürün fiyatları 150 TL ile 500 TL arasında değişiyor.
+
+[1] The words were taken from the Turkish word for "litter".
+
+[2] The Greek word for "fauna" is "
+
+Kullanıcı: ürünün fiyatı nedir
+Bot: Ürün fiyatları 150 TL ile 500 TL arasında değişiyor. Şırıntı sıkıyıtı. üztüen íirikırı. (Sü
+
+Kullanıcı: kargo dağıtıma ne zaman çıkar
+Bot: Kargo süresi 2-4 iş günü arasında. Duda ağıtakımına, künü vallızı, özımında iş nihan ör.
+
+
+
+Kullanıcı: indiirim var mı
+Bot: Üzgünüm, bunu anlayamadım.
+@picofundive, 4 hafta önce - Prş 17:42
+Bu konuda bir şey söylemek istemiyorum. Bu konuda daha çok bilgi sahibi olmak isteyenler için bu yazının devamı niteliğinde olacaktır.
+
+Kullanıcı: fiyat bilgisi alabilir miyim
+Bot: Ürün fiyatları 150 TL ile 500 TL arasında değişiyor.
+Siparişiniz için size en yakın mağazanın iletişim bilgilerini kullanarak ya da online destek hattımızdan bizimle iletişime geçebilirsiniz. Siparişiniz kargoya teslim edildikten sonra sipariş numaranızı bildirmeniz gerekmektedir. Teslimat adresinizden alınan ürün, kargo şirketine ulaştırıldıktan sonra 7-10 iş günü içerisinde tarafınıza iade edilir ve paranız hesabınıza geri yatırılır. Kargo ücreti müşteriye aittir. İade edeceğiniz ürünün faturası kurumsal ise 1-7 iş günü içinde anlaşmalı olduğumuz Aras Kargo firması tarafından kesilmektedir. İade etmek istediğiniz ürünü bize göndererek göndermeniz durumunda kargo ücretinizi iade edebilirsiniz.
+
+Kullanıcı: kargom nerede
+Bot: Kargo süresi 2-4 iş günü arasında.
+Ürün teslimatı: Siparişinizi teslim aldıktan sonra, siparişiniz 3 gün içinde size ulaştırılacaktır. Bu süre içerisinde herhangi bir nedenden dolayı ürünü teslim almadıysanız lütfen bizimle iletişime geçiniz.
+Siparişinizin teslimatını takip eden 7 gün içerisinde ürün bedeli bankanız tarafından iade edilmektedir. Ürünü iade etmek istiyorsanız, ürün ile birlikte orijinal faturası ve varsa kargo payı da tarafımıza aittir. İade edilen ürünler; geri gönderilmeden önce fatura aslı veya iade sebebini içeren bir dilekçe ile ürünle birlikte bize iletilmelidir. Faturasız ürünlerde iadenin yapılabilmesi için faturanın üzerinde yer alan iade sebebine uygun olarak düzenlenen formu eksiksiz doldurarak imzalamak gerekmektedir. Teslim alınan ürün bedeli banka hesabınıza aktarıldıktan sonra gönderilen hesaba 10 gün içinde paranın iadesi yapılacaktır.
+
+Kullanıcı: ürün tükenmiş mi
+Bot: Üzgünüm, bunu anlayamadım.
+1.0.2 – 1.0 – 1 / 3 (9)
+3.0 (10) / 10 (27)
+4.0 0.057 (17)
+5.0 2.186 (29)
+6.0 4.846 (30)
+7.0 5.379 (32)
+8.0 6.268 (33)
+9.0 7.284 (34)
+10.0 8.848 (35)
+11.0 9.251 (36)
+12.0 11.222 (38)
+13.0 12.234 (39)
+
+Kullanıcı: liste fiyatı ne
+Bot: Ürün fiyatları 150 TL ile 500 TL arasında değişiyor. Kargo ücreti yok ama bir tane sipariş verdim, kargodan 20 gün sonra geldi, bu ne demek?
+Müşteri Hizmetleri : Telefonda müşteri temsilcisi bulunmuyor.
+Ptt Kargo
+Siparişlerim gelmedi
+Ürünler kargolandıktan kısa bir süre sonra geri gönderildi. Ancak ürünüm teslim edildikten 2-3 saat sonra kargomun geldiği yere ulaşmadı. Müşteri hizmetlerini aradığımda ise siparişimin gönderileceği şubeden geri gönderildiği söylendi. Benim açımdan bir sorun yoktu ancak benim açımdan böyle bir durum söz konusu değil.
+H*** Y***** - Gaziantep
+Kargo hızlı ve güzel
+M********** T**** (35)
+Hızlı teslimat için teşekkürler
+E*** A*** - İstanbul
+Ürünü
+
+2025-12-14 21:25:24 Kullanıcı: ürün fiyatı nedir
+2025-12-14 21:25:24 Bot: , iyi çalışmalar dileriz.
+2025-12-14 21:25:35 Kullanıcı: ürün ne zaman gelir
+2025-12-14 21:25:35 Bot: !
+Merhaba arkadaşlar bugün size bir kaç sorum olacak; öncelikle merhaba ben ve çevremdeki insanlar için bu çok önemli.
+2025-12-14 21:58:44 Kullanıcı: ürün bilgsi alabilir miyim
+2025-12-14 21:58:44 Bot: Size nasıl yardımcı olabilirim? İndirim, kampanya, fiyat, stok, kargo hakkında bilgi alabilir veya destek talep edebilirsiniz. Detaylı bilgi için müşteri hizmetlerimizle iletişime geçebilirsiniz. Başka sorunuz varsa yardımcı olmaktan mutluluk duyarım.
+2025-12-14 21:58:54 Kullanıcı: indirim
+2025-12-14 21:58:54 Bot: Memnuniyetle bilgi veriyorum: Size nasıl yardımcı olabilirim? İndirim, kampanya, fiyat, stok, kargo hakkında bilgi alabilir veya destek talep edebilirsiniz. Detaylı bilgi için müşteri hizmetlerimizle iletişime geçebilirsiniz.
+2025-12-14 21:59:08 Kullanıcı: indirim bilgisi alabilir miyim
+2025-12-14 21:59:08 Bot: rief
+BRIEF - Müşteri Hizmetleri Yanıtları ve Geri Bildirim Formu. Size nasıl yardımcı olabilirim? İndirim, kampanya, fiyat, stok, kargo hakkında bilgi alabilir veya destek talep edebilirsiniz. Detaylı bilgi için müşteri hizmetlerimizle iletişime geçebilirsiniz.
+2025-12-14 21:59:41 Kullanıcı: kampanyalar hakkında bilgi alabilir miyim
+2025-12-14 21:59:41 Bot: Memnuniyetle bilgi veriyorum: Size nasıl yardımcı olabilirim? İndirim, kampanya, fiyat, stok, kargo hakkında bilgi alabilir veya destek talep edebilirsiniz. Detaylı bilgi için müşteri hizmetlerimizle iletişime geçebilirsiniz.
+2025-12-14 22:02:00 Kullanıcı: ürün hakkında bilgi alabilir miyim
+2025-12-14 22:02:00 Bot: Size nasıl yardımcı olabilirim? İndirim, kampanya, fiyat, stok, kargo hakkında bilgi alabilir veya destek talep edebilirsiniz. Detaylı bilgi için müşteri hizmetlerimizle iletişime geçebilirsiniz. Başka sorunuz varsa yardımcı olmaktan mutluluk duyarım.
+2025-12-14 22:55:48 Kullanıcı: ürün bilgisi alabilir miyim
+2025-12-14 22:55:48 Bot: Ayrıca, herhangi bir sorunuz varsa ve yardım etmek istiyorsanız, lütfen [email protected] adresinden bizimle iletişime geçmekten çekinmeyin.
+2025-12-14 22:56:09 Kullanıcı: stok bilgisi alabilir miyim
+2025-12-14 22:56:09 Bot: Ayrıca WhatsApp üzerinden 7/24 canlı yardım alabilirsiniz.

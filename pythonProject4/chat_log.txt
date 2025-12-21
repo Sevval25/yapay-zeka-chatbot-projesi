@@ -1,0 +1,27 @@
+USER: kargo ücretsiz mi
+BOT: Sitemizde %10 ila %30 arasında indirimli ürünler var.
+
+USER: ürün kampanyanız var mı
+BOT: Aktif kampanyalarımız ana sayfamızda yer almaktadır.
+
+USER: indirimli ürünleriniz var mo
+BOT: İndirimli ürünlerimizi sitemizden ziyaret edebilirsiniz.
+
+USER: kargo süresi ne kadar
+BOT: Kargo süremiz 2–4 iş günü arasındadır.
+
+USER: kampanyalarınız nedir
+BOT: Aktif kampanyalarımız ana sayfamızda yer almaktadır.
+
+USER: ürün fiyat bilgisi alabilir miyim
+BOT: Fiyat bilgileri ürün sayfalarında yer almaktadır.
+
+USER: yardım alabilir miyim
+BOT: Size nasıl yardımcı olabilirim?
+
+USER: ürünüm iade olucak
+BOT: Fiyat bilgileri ürün sayfalarında yer almaktadır.
+
+USER: ürün stokta var mı
+BOT: Stok bilgisi ürün sayfasında görüntülenmektedir.
+

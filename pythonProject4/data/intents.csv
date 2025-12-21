@@ -1,0 +1,48 @@
+text,label
+"Kargo süresi ne kadar?",0
+"Kargo kaç günde gelir?",0
+"Siparişim ne zaman ulaşır?",0
+"Teslimat süresi nedir?",0
+"Kargo ücretsiz mi?",0
+
+
+"İndirim var mı?",1
+"Şu an indirim yapıyor musunuz?",1
+"İndirimli ürünler mevcut mu?",1
+"Kampanya indirimi var mı?",1
+"Ürünlerde indirim var mı?",1
+
+
+"Aktif kampanyalar neler?",2
+"Devam eden kampanyalar hangileri?",2
+"Özel kampanya var mı?",2
+"Aktif kampanyalar neler?",2
+"Devam eden kampanyalar hangileri?",2
+
+
+"Bu ürünün fiyatı ne kadar?",3
+"Ürün kaç TL?",3
+"Fiyat bilgisi alabilir miyim?",3
+"Bu ürünün fiyatı ne kadar?",3
+"Ürün kaç TL?",3
+
+
+"Stokta var mı?",4
+"Ürün mevcut mu?",4
+"Stok durumu nedir?",4
+"Stokta var mı?",4
+"Ürün mevcut mu?",4
+
+
+"Müşteri hizmetlerine bağlanmak istiyorum",5
+"Canlı destek var mı?",5
+"Destek alabilir miyim?",5
+"Müşteri hizmetlerine bağlanmak istiyorum",5
+"Canlı destek var mı?",5
+
+
+"Merhaba",6
+"Nasılsınız?",6
+"Bilgi alabilir miyim?",6
+"Merhaba",6
+"Nasılsınız?",6

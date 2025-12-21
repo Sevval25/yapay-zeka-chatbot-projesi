@@ -1,0 +1,528 @@
+[2025-12-16 21:09:43.418122]
+USER: ürün fiyatı nedir
+BOT: Merhaba, ilgilendiğiniz ürünün fiyat bilgisi için lütfen ürünün adını veya kodunu paylaşır mısınız? Size en doğru bilgiyi sağlamaktan memnuniyet duyarım.
+
+[2025-12-16 21:09:55.007361]
+USER: etek istiyorum
+BOT: Merhaba, size yardımcı olabilmem için hangi model veya renklerde etek aradığınızı belirtir misiniz? İyi alışverişler dilerim.
+
+[2025-12-16 21:10:27.242484]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süresi genellikle 3-7 iş günü arasında değişmektedir. Siparişinizin durumunu takip etmek için tarafınıza gönderilen kargo takip numarasını kullanabilirsiniz. Başka bir konuda yardımcı olabilir miyim?
+
+[2025-12-16 21:11:59.959964]
+USER: Aktif kampanyalar neler
+BOT: Merhaba, güncel aktif kampanyalarımızı incelemek için lütfen web sitemizin "Kampanyalar" bölümünü ziyaret edebilirsiniz. Size yardımcı olabileceğimiz başka bir konu var mı?
+
+[2025-12-16 21:15:16.073850]
+USER: kargo fiyatını alabilir miyim
+BOT: Merhaba, kargo fiyatı ürünün ağırlığına ve teslimat adresinize göre değişiklik göstermektedir. Detaylı bilgi için lütfen ürün sayfasındaki kargo bilgilerini kontrol edebilir veya teslimat adresinizi paylaşabilirsiniz. Size yardımcı olmaktan memnuniyet duyarım.
+
+[2025-12-16 21:16:12.063903]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-16 21:17:12.982759]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süresi genellikle 3-7 iş günü arasında değişmektedir. Siparişinizin durumunu takip etmek için size gönderilen kargo takip numarasını kullanabilirsiniz. Başka bir konuda yardımcı olabilir miyim?
+
+[2025-12-16 21:17:38.351767]
+USER: müşteri hizmetlerini nasıl arayabilirim
+BOT: Merhaba, müşteri hizmetlerimize ulaşmak için web sitemizde yer alan "İletişim" bölümündeki telefon numarasını kullanabilirsiniz. Size yardımcı olmaktan memnuniyet duyarız.
+
+[2025-12-16 21:24:09.292736]
+USER: kargom ne zaman gelir
+BOT: Merhaba, kargonuzun tahmini teslimat tarihini öğrenmek için lütfen sipariş numaranızı paylaşır mısınız? Size en kısa sürede yardımcı olalım. Teşekkürler.
+
+[2025-12-17 01:01:48.713148]
+USER: kargo hakkında bilgi alabilir miyim
+BOT: Bir hata oluştu.
+
+[2025-12-17 01:01:55.411728]
+USER: ücret
+BOT: Bir hata oluştu.
+
+[2025-12-17 01:18:23.745565]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süreniz sipariş verdiğiniz ürün ve teslimat adresinize bağlı olarak değişmektedir. Size daha net bilgi verebilmem için sipariş numaranızı veya satın almak istediğiniz ürünü paylaşabilir misiniz? Yardımcı olmaktan memnuniyet duyarım.
+
+[2025-12-17 01:18:52.169926]
+USER: ürün bilgisi nerden alabilirim
+BOT: Merhaba, ürün bilgilerine ürün sayfamızdan ulaşabilirsiniz. Size daha iyi yardımcı olabilmem için hangi ürünle ilgilendiğinizi belirtir misiniz?
+
+[2025-12-17 01:19:43.352205]
+USER: fiyat bilgisi nerden alabilirim
+BOT: Merhaba, fiyat bilgisi almak istediğiniz ürün veya kategori hakkında detay verirseniz size yardımcı olmaktan memnuniyet duyarım.
+
+[2025-12-17 01:20:30.058943]
+USER: indirimli ürünler mevcut mu
+BOT: Merhaba, indirimli ürünlerimiz mevcuttur. Size yardımcı olabilmem için hangi kategori veya ürünlerle ilgilendiğinizi belirtir misiniz?
+
+[2025-12-17 01:40:54.915738]
+USER: kargo süresi ne kadar
+BOT: Merhaba, ilginiz için teşekkür ederiz. Kargo süresi, ürün ve gönderim bölgesine göre değişiklik gösterebilir. Size daha iyi yardımcı olabilmemiz için lütfen sipariş vermek istediğiniz ürün veya bulunduğunuz bölge hakkında bilgi verebilir misiniz?
+
+[2025-12-17 01:55:35.143688]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süresi ürün ve teslimat adresinize bağlı olarak değişiklik gösterebilir. Size daha iyi yardımcı olabilmem için lütfen sipariş numaranızı veya satın almak istediğiniz ürünü paylaşır mısınız?
+
+[2025-12-17 02:17:20.273814]
+USER: kargo süresi ne kadar
+BOT: Merhaba, siparişlerinizin kargo süresi genellikle 2–4 iş günü arasında gerçekleşmektedir. Her zaman hızlı ve güvenli teslimat için çalışıyoruz. İlginiz için teşekkür ederiz!
+
+[2025-12-17 02:20:30.130418]
+USER: ücret bilgisi
+BOT: Merhaba, ücret bilgisi hakkında size nasıl yardımcı olabilirim? Hangi ürün veya hizmetle ilgili bilgi almak istediğinizi belirtir misiniz?
+
+[2025-12-17 02:21:11.284867]
+USER: kampanyalı ürünleriniz var mı
+BOT: Merhaba, kampanyalı ürünlerimiz hakkında size yardımcı olabilirim. Hangi kategori veya ürünlerle ilgileniyorsunuz?
+
+[2025-12-17 02:22:08.417578]
+USER: stokta var mı
+BOT: Merhaba, ilgilendiğiniz ürünün stok durumu hakkında size yardımcı olabilmem için lütfen ürün adını veya kodunu paylaşır mısınız?
+
+[2025-12-17 02:23:34.415381]
+USER: indirimli ürünler var mı
+BOT: Merhaba, indirimli ürünlerimiz hakkında size yardımcı olabilirim. Hangi kategori veya ürün grubu ile ilgileniyorsunuz?
+
+[2025-12-17 03:13:31.151285]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süremiz genellikle 2–4 iş günü arasında gerçekleşmektedir. İlginiz için teşekkür eder, iyi günler dileriz.
+
+[2025-12-17 03:14:04.019853]
+USER: indirimli ürünler mevcut mu
+BOT: Merhaba, indirimli ürünlerimiz mevcuttur. Size yardımcı olabilmem için hangi kategoride ürün aradığınızı belirtir misiniz?
+
+[2025-12-17 03:14:22.867886]
+USER: stok var mı
+BOT: Merhaba, hangi ürünün stok durumu hakkında bilgi almak istediğinizi belirtir misiniz? Size yardımcı olmaktan memnuniyet duyarım.
+
+[2025-12-17 03:14:55.082958]
+USER: aktif kampanyalar neler
+BOT: Merhaba, güncel aktif kampanyalarımız hakkında size yardımcı olmaktan memnuniyet duyarım. Hangi ürün kategorileriyle ilgilendiğinizi belirtir misiniz? Böylece size en uygun kampanyaları paylaşabilirim.
+
+[2025-12-17 03:27:56.212424]
+USER: kargo süresi ne kadar
+BOT: Kargo süremiz 2–4 iş günü arasındadır. Size başka nasıl yardımcı olabilirim?
+
+[2025-12-17 03:28:33.967599]
+USER: kampanyalarınız var mı
+BOT: Merhaba, güncel kampanyalarımız hakkında size yardımcı olmaktan memnuniyet duyarım. Hangi ürün veya kategori ile ilgilendiğinizi belirtir misiniz?
+
+[2025-12-17 03:29:07.392009]
+USER: özel kampanya var mı
+BOT: Merhaba, özel kampanyalarımız hakkında size yardımcı olmaktan memnuniyet duyarım. Hangi ürün veya kategori ile ilgilendiğinizi belirtir misiniz?
+
+[2025-12-17 03:29:36.382032]
+USER: canlı destek var mı
+BOT: Merhaba, evet canlı destek hizmetimiz bulunmaktadır. Size nasıl yardımcı olabilirim?
+
+[2025-12-17 03:55:08.430988]
+USER: kargo bilgisi alabilir miyim
+BOT: Merhaba, kargonuzun takibini yapabilmemiz için sipariş numaranızı paylaşabilir misiniz? Size yardımcı olmaktan memnuniyet duyarız.
+
+[2025-12-17 03:55:23.279520]
+USER: kargo süresi ne kadar
+BOT: Kargo süremiz 2–4 iş günü arasındadır. Size başka nasıl yardımcı olabilirim?
+
+[2025-12-17 04:33:14.230737]
+USER: kargo süresi ne kadar
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:33:59.452930]
+USER: müşteri hizmetlerine bağlanmak istiyorum
+BOT: Destek ekibimiz size yardımcı olmaktan memnuniyet duyar. Size nasıl yardımcı olabiliriz?
+
+[2025-12-17 04:34:24.222713]
+USER: ücret ne kadar
+BOT: Merhaba, ücret bilgisi hakkında yardımcı olamıyorum ancak kargo süremiz 2–4 iş günü arasındadır. Başka sorunuz olursa memnuniyetle destek olurum.
+
+[2025-12-17 04:35:05.913301]
+USER: indirim ne kadar
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:35:26.980723]
+USER: merhabalar
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 04:35:37.579216]
+USER: kargom gelmedi
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Anlayışınız için teşekkür eder, iyi günler dileriz.
+
+[2025-12-17 04:35:55.987207]
+USER: müşteri hizmetleri numarası
+BOT: Destek ekibimiz size yardımcı olmaktan memnuniyet duyar.
+
+[2025-12-17 04:36:22.282627]
+USER: numarayı atar mısın
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:37:16.759816]
+USER: kampanalar neelr
+BOT: Merhaba, kampanyalarımız hakkında detaylı bilgi almak için web sitemizi ziyaret edebilirsiniz. Size yardımcı olabileceğimiz başka bir konu olursa lütfen çekinmeden iletin. İyi günler dileriz.
+
+[2025-12-17 04:38:06.982920]
+USER: ürünün fiyatı ne kadar
+BOT: Merhaba, ürünün fiyat bilgileri ürün sayfasında yer almaktadır. İlginiz için teşekkür ederiz.
+
+[2025-12-17 04:38:30.312933]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 04:38:42.328764]
+USER: destek olamazsın
+BOT: Merhaba, size nasıl yardımcı olabilirim? Lütfen sorununuzu paylaşabilir misiniz?
+
+[2025-12-17 04:38:48.624963]
+USER: sorunum yok
+BOT: Merhaba, size nasıl yardımcı olabilirim? Herhangi bir sorunuz olursa lütfen çekinmeden bize ulaşın. İyi günler dilerim.
+
+[2025-12-17 04:39:01.983399]
+USER: ürünüm yok
+BOT: Merhaba, ürününüzün kargo süresi 2–4 iş günü arasındadır. İlginiz için teşekkür ederiz.
+
+[2025-12-17 04:39:13.529680]
+USER: ürünüm hala gelmedi
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Anlayışınız için teşekkür eder, iyi günler dileriz.
+
+[2025-12-17 04:40:31.083583]
+USER: ürün fiyatı
+BOT: Merhaba, ürün fiyat bilgileri ürün sayfasında yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:40:52.363928]
+USER: etek fiyatı
+BOT: Merhaba, indirimli etek fiyatlarımızı web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:41:03.178787]
+USER: göremedim ama
+BOT: Merhaba, size nasıl yardımcı olabilirim? Görmekte zorlandığınız konuyu belirtirseniz, memnuniyetle destek oluruz.
+
+[2025-12-17 04:45:55.750254]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 04:46:00.792092]
+USER: bir sorum var
+BOT: Merhaba, size nasıl yardımcı olabilirim? Lütfen sorunuzla ilgili detayları paylaşır mısınız?
+
+[2025-12-17 04:46:14.872603]
+USER: ürünüm var benim
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:46:38.843362]
+USER: ürün fiyatlarını sorucaktım
+BOT: Merhaba, ürün fiyat bilgileri ilgili ürünün sayfasında yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen belirtiniz.
+
+[2025-12-17 04:46:54.452008]
+USER: denediğim üürnü iade nasıl edicem
+BOT: Merhaba, ürün iadesi için kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 04:47:11.261120]
+USER: tamam ama iade koşulları ne
+BOT: İade koşulları ile ilgili detaylı bilgi için size yardımcı olmaktan memnuniyet duyarız. Ancak, belirtmek isterim ki kargo süremiz 2–4 iş günü arasındadır. İade süreci hakkında daha fazla bilgi almak isterseniz, lütfen bizimle iletişime geçiniz.
+
+[2025-12-17 16:48:55.530404]
+USER: ücret bilgisi alabilir miyim
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Ücret bilgisi ile ilgili detaylar için lütfen ilgili ürün sayfasını inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa memnuniyetle destek veririz.
+
+[2025-12-17 16:50:18.448430]
+USER: kampanyalarınız var mı
+BOT: Merhaba, güncel kampanyalarımızı ana sayfamızda bulabilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen çekinmeden bize bildirin.
+
+[2025-12-17 16:50:53.368774]
+USER: bu ürünün stoku ne zaman yenilenir acaba
+BOT: Merhaba, ürün stok yenileme bilgisi hakkında net bir tarih veremiyoruz. Ancak siparişinizde kargo süremiz 2–4 iş günü arasındadır. Anlayışınız için teşekkür ederiz.
+
+[2025-12-17 16:51:19.606941]
+USER: stok
+BOT: Merhaba, stok durumu ve fiyat bilgileri ürün sayfasında yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 16:51:58.647322]
+USER: stok durumu nedir
+BOT: Merhaba, ilgilendiğiniz ürünün stok durumu hakkında bilgi vermek isterim. Kargo süremiz 2–4 iş günü arasındadır. Başka sorularınız olursa memnuniyetle yardımcı oluruz.
+
+[2025-12-17 16:52:36.294676]
+USER: stok mevcut mu
+BOT: Merhaba, stok durumu ürün sayfasında görüntülenmektedir. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:01:33.380549]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 17:01:49.982520]
+USER: ürün hakkında bilgi alıcaktım
+BOT: Merhaba, ilginiz için teşekkür ederiz. Ürünümüzün kargo süresi 2–4 iş günü arasındadır. Başka sorunuz olursa memnuniyetle yardımcı oluruz.
+
+[2025-12-17 17:02:40.781752]
+USER: indirim var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:03:13.243714]
+USER: indirimli ürünler mevcut mu
+BOT: İndirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:03:31.408255]
+USER: ürünlerde indirim var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:03:55.218102]
+USER: özel kampanyalar var mı
+BOT: Merhaba, güncel kampanyalarımızı ana sayfamızda bulabilirsiniz. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:04:13.983785]
+USER: aktif devam eden kampanya var mı
+BOT: Merhaba, güncel kampanyalarımızı ana sayfamızdan inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:04:46.673029]
+USER: bi etek beğendim stokta var mı
+BOT: Merhaba, indirimli ürünlerimizi ve stok durumlarını web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:05:07.153408]
+USER: bir etek beğenmiştim stok durumunu nerden görebilirim
+BOT: Merhaba, stok durumu hakkında bilgi almak için ürün sayfasında stok durumu kısmını kontrol edebilirsiniz. İyi günler dileriz.
+
+[2025-12-17 17:05:55.707997]
+USER: beğendiğim etek stokta var mı
+BOT: Merhaba, beğendiğiniz etekle ilgili stok durumu için indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:07:03.816515]
+USER: müşteri hizmetlerine bağlanabilir miyim
+BOT: Merhaba, destek ekibimiz size yardımcı olmaktan memnuniyet duyar. Size nasıl yardımcı olabiliriz?
+
+[2025-12-17 17:07:38.136282]
+USER: müşteri hizmetleri var mı
+BOT: Merhaba, ilginiz için teşekkür ederiz. Kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:08:31.162911]
+USER: stok durumunu sorucaktım
+BOT: Merhaba, stok durumu ile ilgili bilgi veremiyorum ancak kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:08:53.041829]
+USER: etek beğendim onun stoğu var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:09:36.168937]
+USER: devam eden kampanya var mı
+BOT: Merhaba, güncel kampanyalarımızı ana sayfamızda inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:09:46.156057]
+USER: indirim var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:10:02.006108]
+USER: ben sitede indiirmli ürün arıyorum
+BOT: İndirimli ürünlerimizi sitemizde filtreleme seçenekleri ile kolayca bulabilirsiniz. Ayrıca, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:11:04.143205]
+USER: indirim var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:11:47.657611]
+USER: bi ürün gördüm fiyatı ne kadar
+BOT: Merhaba, ürün fiyat bilgileri ilgili ürünün sayfasında bulunmaktadır. İyi alışverişler dilerim.
+
+[2025-12-17 17:12:00.917744]
+USER: ürün stok durumunu
+BOT: Merhaba, ürün stok durumu ile ilgili bilgi için size yardımcı olabilmemiz adına lütfen ilgili ürünün adını veya kodunu paylaşabilir misiniz? Ayrıca, kargo süremiz 2–4 iş günü arasında olduğunu belirtmek isterim. Teşekkür ederiz.
+
+[2025-12-17 17:12:33.225100]
+USER: etek
+BOT: Merhaba, indirimli etek modellerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:13:05.547398]
+USER: tamam teşekkürler yardımın için
+BOT: Rica ederim, her zaman yardıma hazırız. Başka bir konuda destek isterseniz lütfen çekinmeden bize ulaşın. İyi günler dilerim.
+
+[2025-12-17 17:13:12.555761]
+USER: nasılsın
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 17:14:19.660362]
+USER: yardımcı olucak mısın
+BOT: Destek ekibimiz size yardımcı olmaktan memnuniyet duyar.
+
+[2025-12-17 17:15:00.521543]
+USER: bi etek var stoğu ne zamaan güncellenir
+BOT: Merhaba, stok güncellemeleriyle ilgili net bilgi veremiyorum ancak kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:15:15.061134]
+USER: stok ne zaman gelir peki
+BOT: Merhaba, stokla ilgili net bir tarih veremiyoruz ancak kargo süremiz 2–4 iş günü arasındadır. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:15:47.595721]
+USER: stok durumu nedir
+BOT: Merhaba, stok durumu ile ilgili bilgi veremiyorum ancak kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:16:01.373878]
+USER: stokta var mı
+BOT: Merhaba, stok durumu ürün sayfasında görüntülenmektedir. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:16:25.760860]
+USER: fiyat bilgisi alabilir miyim
+BOT: Merhaba, ürün fiyat bilgileri ilgili ürünün sayfasında yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:16:38.745769]
+USER: ürünün fiyatı ne kadar yazmıyor
+BOT: Merhaba, ürünün fiyat bilgisi ürün sayfasında yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:17:19.891530]
+USER: kampanyalı ürünler var mı
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:18:22.986511]
+USER: özel kampanya var mı
+BOT: Merhaba, güncel kampanyalarımızı ana sayfamızda bulabilirsiniz. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:18:42.669199]
+USER: indirimli ürünler nerde
+BOT: İndirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Size yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:19:15.852183]
+USER: indirimli ürünleri nerede bulabilirim sitede
+BOT: Merhaba, indirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:19:49.817943]
+USER: etek hakkında bilgi alabilir miiyim
+BOT: Merhaba, etek hakkında bilgi almak için destek ekibimiz size yardımcı olmaktan memnuniyet duyar. Size nasıl yardımcı olabiliriz?
+
+[2025-12-17 17:20:03.791657]
+USER: stoku var mı nasıl öğrenicem
+BOT: Merhaba, stok durumu ürün sayfasında görüntülenmektedir. İyi alışverişler dileriz.
+
+[2025-12-17 17:20:44.134737]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-17 17:20:54.492883]
+USER: ürünün stoğu var mı
+BOT: Merhaba, ürünün stok durumu ürün sayfasında görüntülenmektedir. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:21:25.423111]
+USER: durumun nasul
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:21:39.938992]
+USER: ürünü bulamıyorum
+BOT: Merhaba, indirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:22:16.713346]
+USER: indirimli değil direk kadın ürünleri nerede
+BOT: Merhaba, kadın ürünlerimizi web sitemizin ilgili kategorisinde bulabilirsiniz. İndirimli ürünler ise ayrı bir bölümde yer almaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen belirtiniz.
+
+[2025-12-17 17:22:50.634475]
+USER: bi üürn var
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:23:02.365696]
+USER: bi ürünüm var
+BOT: Merhaba, indirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu var mı?
+
+[2025-12-17 17:23:41.507257]
+USER: üürnle ilgili soru sorucam
+BOT: Merhaba, indirimli ürünlerimizi web sitemizden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:24:16.510847]
+USER: indiirm değil
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Anlayışınız için teşekkür ederiz.
+
+[2025-12-17 17:24:47.017789]
+USER: kargo süresi soru
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:25:05.794936]
+USER: ürünümün durumunu öğrenmek istiyorum sipraişim gelmedi
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Siparişiniz bu süre zarfında elinize ulaşacaktır. Anlayışınız için teşekkür ederiz.
+
+[2025-12-17 17:25:18.016783]
+USER: peki şuan nerede
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:26:39.346868]
+USER: kargom nerede şuan onu görmek istiyorum
+BOT: Merhaba, kargonuzun teslim süresi 2-4 iş günü arasındadır. İlginiz için teşekkür ederiz.
+
+[2025-12-17 17:27:00.902697]
+USER: ürün elinizde mi onu öğrenmek isityorum
+BOT: Merhaba, ilginiz için teşekkür ederiz. Kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-17 17:27:47.791044]
+USER: 5 gün oldu hala gelmedi
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. İlginiz için teşekkür eder, sabrınız için anlayışınızı rica ederiz.
+
+[2025-12-17 17:27:56.162130]
+USER: anlamıyor musun
+BOT: Merhaba, size nasıl yardımcı olabilirim? Lütfen sorununuzu detaylandırabilir misiniz?
+
+[2025-12-17 17:28:07.284868]
+USER: 5 gün oldu ürünüm hala gelmedi
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. Yaşadığınız gecikme için özür diler, anlayışınız için teşekkür ederiz. Siparişinizin durumu hakkında size yardımcı olmaktan memnuniyet duyarız.
+
+[2025-12-17 17:28:33.142535]
+USER: sipariş şuan nerede onu nasıl öğrenicem
+BOT: Merhaba, kargonuzun durumu hakkında bilgi almak için lütfen sipariş takip numaranız ile kargo firmasının web sitesini ziyaret edebilirsiniz. Ayrıca, kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-21 20:44:16.660705]
+USER: merhaba
+BOT: Merhaba, size nasıl yardımcı olabilirim?
+
+[2025-12-21 20:45:17.304408]
+USER: ben bi tane etek almıştım fkaat iade etmek istiyorum yardımcı olabilir msiinzi
+BOT: Merhaba, iade işleminiz için yardımcı olmaktan memnuniyet duyarız. Kargo süremiz 2–4 iş günü arasındadır. İade sürecinizle ilgili detaylar için lütfen bizimle iletişime geçiniz.
+
+[2025-12-21 20:45:36.517885]
+USER: iadeyi nasıl yapıcam
+BOT: Merhaba, iadelerinizle ilgili işlemlerinizde size yardımcı olabilmemiz için öncelikle kargo süremizin 2–4 iş günü arasında olduğunu belirtmek isterim. İade sürecinizle ilgili detaylar için lütfen bizimle iletişime geçiniz. Teşekkür ederiz.
+
+[2025-12-21 20:46:02.928886]
+USER: kargom geldi zaten iadeyi nasıl yapıcam ürün elimde
+BOT: Merhaba, kargo süremiz 2–4 iş günü arasındadır. İade işlemi için size yardımcı olabilmemiz adına lütfen bizimle iletişime geçiniz. Teşekkür ederiz.
+
+[2025-12-21 20:46:31.924846]
+USER: iletişime geçiyorum zateb
+BOT: Merhaba, ilginiz için teşekkür ederiz. Kargo süremiz 2–4 iş günü arasındadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bizimle iletişime geçmekten çekinmeyin.
+
+[2025-12-21 20:48:17.215947]
+USER: ürün elime ulaşamadı
+BOT: Merhaba, kargo teslimat süremiz genellikle 2–4 iş günü arasında gerçekleşmektedir. Siparişinizin durumu hakkında size yardımcı olmamızı isterseniz, lütfen sipariş numaranızı paylaşabilir misiniz?
+
+[2025-12-21 20:48:42.632588]
+USER: 00090
+BOT: Merhaba, size nasıl yardımcı olabilirim? Lütfen sorununuzu veya talebinizi daha detaylı paylaşabilir misiniz?
+
+[2025-12-21 20:48:56.846321]
+USER: ürünümü iade etmek istiyorum
+BOT: Merhaba, ürününüzü iade etmek istediğinizi anladık. İade sürecinizde size yardımcı olabilmemiz için lütfen sipariş bilgilerinizi bizimle paylaşınız. Ayrıca, kargo süremiz 2–4 iş günü arasında gerçekleşmektedir. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin. Teşekkür ederiz.
+
+[2025-12-21 20:50:43.389867]
+USER: etek ürünlerine sitede nerden ulaşabilirim
+BOT: Merhaba, etek ürünlerimize sitemizin ana sayfasındaki "Kadın Giyim" kategorisi altında yer alan "Etek" bölümünden ulaşabilirsiniz. Başka bir konuda yardımcı olabileceğimiz bir şey olursa lütfen bize bildirin. İyi günler dileriz.
+
+[2025-12-21 20:51:09.781912]
+USER: stok nerden bakıcam
+BOT: Merhaba, stok durumunu ürün sayfasında görebilirsiniz. Ayrıca kargo süremiz 2–4 iş günü arasında gerçekleşmektedir. Yardımcı olabileceğimiz başka bir konu olursa lütfen çekinmeden bize ulaşın.
+
+[2025-12-21 20:52:17.311857]
+USER: ürünün fiyatın nedir
+BOT: Merhaba, ürünün fiyat bilgisi ürün sayfasında detaylı olarak bulunmaktadır. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-21 20:52:35.440860]
+USER: kampanya var mı sitede güncel
+BOT: Merhaba, güncel kampanyalarımız ve indirimli ürünlerimizi web sitemiz üzerinden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-21 20:53:04.865653]
+USER: ürünümü aldım fakat iade edemiyorum
+BOT: Merhaba, iade işleminizi gerçekleştirebilmeniz için ürünün kargo süresi olan 2–4 iş günü içinde tarafımıza ulaşmış olması gerekmektedir. Yardımcı olabileceğimiz başka bir konu olursa lütfen bize bildirin.
+
+[2025-12-21 20:53:38.736157]
+USER: ürünümü iade etmek istiyorum
+BOT: Merhaba, ürününüzü iade etmek istediğiniz için yardımcı olmaktan memnuniyet duyarız. İade sürecinizin tamamlanabilmesi için kargo süremiz 2–4 iş günü arasında gerçekleşmektedir. Herhangi bir sorunuz olursa lütfen bizimle iletişime geçmekten çekinmeyin.
+
+[2025-12-21 20:54:22.728216]
+USER: ürünüm elime ulaştı fakat bedeni küçük iade edebilir miyim
+BOT: Merhaba, ürününüzü iade etmek isterseniz, beden değişimi veya iade işlemleri için destek ekibimizle iletişime geçebilirsiniz. Size yardımcı olmaktan memnuniyet duyarız. İyi günler dileriz.
+
+[2025-12-21 21:13:39.377407]
+USER: sitede kampanyadaki ürünleri göremedim ya
+BOT: Merhaba, indirimli ürünlerimizi web sitemizdeki "Kampanyalar" veya "İndirimdeki Ürünler" bölümünden inceleyebilirsiniz. Yardımcı olabileceğimiz başka bir konu olursa lütfen belirtiniz.
+
