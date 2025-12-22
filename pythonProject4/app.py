@@ -1,14 +1,11 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-
+import streamlit as st
 from step2_nlu import predict_intent_bert
 from dialog_manager import decide_action
 from step4_nlg import generate_response
 from step5_logging import log_conversation
 
-app = Flask(__name__)
-CORS(app)
-app.config["JSON_AS_ASCII"] = False
+# Sayfa Ayarları
+st.set_page_config(page_title="Müşteri Destek Asistanı", page_icon="🤖")
 
 # 🔹 KURAL TABANLI SABİT CEVAPLAR
 INFO_MAP = {
@@ -20,64 +17,58 @@ INFO_MAP = {
     "support": "Destek ekibimiz size yardımcı olmaktan memnuniyet duyar."
 }
 
-# 🔹 Sabit cevabı GPT ile sadece güzelleştirme
+# 🔹 Yardımcı Fonksiyonlar
 def rewrite_with_gpt(base_text, user_text):
-    prompt = f"""
-Kullanıcı şu soruyu sordu:
-"{user_text}"
-
-Aşağıdaki cevabı kullanıcıya doğal ve nazik şekilde ilet.
-"{base_text}"
-"""
+    prompt = f"Kullanıcı şunu sordu: '{user_text}'. Aşağıdaki cevabı nazik ve doğal bir şekilde ilet: '{base_text}'"
     return generate_response(prompt)
 
-# 🔹 Belirsiz sorular için fallback GPT
 def fallback_with_gpt(user_text):
-    prompt = f"""
-Kullanıcı şu mesajı gönderdi:
-"{user_text}"
-
-Eğer soru belirsizse nazikçe yardım teklif et,
-eğer selamlaşmaysa kısa bir karşılama yap.
-"""
+    prompt = f"Kullanıcı mesajı: '{user_text}'. Nazikçe selam ver veya yardım teklif et."
     return generate_response(prompt)
 
-@app.route("/chat", methods=["POST"])
-def chat():
-    user_input = request.json.get("message", "").strip()
+# --- ARAYÜZ ---
+st.title("🤖 Akıllı Destek Asistanı")
+st.markdown("Sorularınızı aşağıya yazabilirsiniz.")
 
-    if not user_input:
-        return jsonify({"response": "Mesaj boş olamaz."})
+# Sohbet Geçmişi (Streamlit'te mesajların kalması için)
+if "messages" not in st.session_state:
+    st.session_state.messages = []
 
-    # 1️⃣ Intent + confidence
-    intent, confidence = predict_intent_bert(user_input)
+# Eski mesajları ekrana bas
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-    # 2️⃣ Karar
-    action = decide_action(intent, confidence)
+# Kullanıcı Girişi
+user_input = st.chat_input("Mesajınızı buraya yazın...")
 
-    # 3️⃣ Yanıt üretimi
-    if action in INFO_MAP:
-        base_response = INFO_MAP[action]
-        response = rewrite_with_gpt(base_response, user_input)
-        source = "rule + gpt"
-    else:
-        response = fallback_with_gpt(user_input)
-        source = "gpt"
+if user_input:
+    # 1. Kullanıcı mesajını göster
+    st.session_state.messages.append({"role": "user", "content": user_input})
+    with st.chat_message("user"):
+        st.markdown(user_input)
 
-    # 4️⃣ Log
+    # 2. İşleme (Backend Mantığın)
+    with st.spinner("Düşünüyorum..."):
+        # Intent + confidence
+        intent, confidence = predict_intent_bert(user_input)
+        
+        # Karar
+        action = decide_action(intent, confidence)
+
+        # Yanıt üretimi
+        if action in INFO_MAP:
+            base_response = INFO_MAP[action]
+            response = rewrite_with_gpt(base_response, user_input)
+        else:
+            response = fallback_with_gpt(user_input)
+
+    # 3. Yanıtı Göster
+    with st.chat_message("assistant"):
+        st.markdown(response)
+        # İstersen güven skorunu küçük bir not olarak ekleyebilirsin:
+        st.caption(f"Intent: {intent} (%{int(confidence*100)})")
+
+    # 4. Geçmişe ve Loglara ekle
+    st.session_state.messages.append({"role": "assistant", "content": response})
     log_conversation(user_input, response)
-
-    return jsonify({
-        "intent": intent,
-        "confidence": round(confidence, 2),
-        "source": source,
-        "response": response
-    })
-
-@app.route("/health", methods=["GET"])
-def health():
-    return jsonify({"status": "ok"})
-
-if __name__ == "__main__":
-    print("🚀 Chatbot çalışıyor...")
-    app.run(debug=True)
