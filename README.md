@@ -84,28 +84,21 @@ pythonProject4/
 │
 └── README.md
 │   Proje dokümantasyonu
+```
 ---
 
-## 🛠 Kurulum ve Çalıştırma (Yerel)
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edin.
-
-### 1. Gerekli Kütüphanelerin Yüklenmesi
-Sanal ortamınızı oluşturduktan sonra gerekli bağımlılıkları yükleyin:
-
-```bash
+▶️ Uygulamanın Çalıştırılması (Yerel)
+1. Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
-2. BERT Intent Modelinin Eğitilmesi
-Modeli veri setinize göre eğitmek ve tokenizer'ı oluşturmak için eğitim scriptini çalıştırın:
 
-Bash
-
+2. BERT Intent Modelini Eğitin
 python train_bert_intent.py
-Bu işlem sonucunda eğitilen model ve tokenizer dosyaları diske kaydedilecektir.
 
-3. Uygulamanın Başlatılması
-Model eğitildikten sonra Flask sunucusunu ayağa kaldırın:
-
-Bash
-
+3. Flask Sunucusunu Başlatın
 python app.py
+
+
+
+
+
+---
