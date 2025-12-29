@@ -88,7 +88,7 @@ pythonProject4/
 ---
 ## 🛠 Kurulum ve Çalıştırma (Yerel)
 **1. Gerekli kütüphaneleri yükleyin**
-pip install -r requirements.txt
+python train_bert_intent.py
 
 **2. BERT Intent Modelini Eğitin**
 python train_bert_intent.py
@@ -96,9 +96,23 @@ python train_bert_intent.py
 **3. Flask Sunucusunu Başlatın**
 python app.py
 
+---
 
 
 
-
+## 📊MODEL EĞİTİMİ VE VERİ HAZIRLAMA SÜRECİ
+Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak
+gerçekleştirilmiştir.
+train_bert_intent.py dosyasında aşağıdaki adımlar yer almaktadır:
+CSV formatındaki veri setinin okunması
+Metinlerin BERT tokenizer ile tokenize edilmesi
+Transformer tabanlı BERT intent modelinin eğitilmesi
+Eğitilen model ve tokenizer’ın diske kaydedilmesi
 
 ---
+
+
+
+
+
+
