@@ -88,7 +88,7 @@ pythonProject4/
 ---
 ## 🛠 Kurulum ve Çalıştırma (Yerel)
 **1. Gerekli kütüphaneleri yükleyin**
-python train_bert_intent.py
+pip install -r requirements.txt
 
 **2. BERT Intent Modelini Eğitin**
 python train_bert_intent.py
