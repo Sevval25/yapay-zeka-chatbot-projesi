@@ -85,36 +85,16 @@ pythonProject4/
 └── README.md
 │   Proje dokümantasyonu
 
-Uygulamanın Çalıştırılması (Yerel)
+---
+## ▶️ Uygulamanın Çalıştırılması (Yerel)
 
-Gerekli kütüphaneleri yükleyin
+### 1️⃣ Gerekli kütüphaneleri yükleyin
+```bash
 pip install -r requirements.txt
-
-BERT intent modelini eğitin
+2️⃣ BERT Intent Modelini Eğitin
 python train_bert_intent.py
 
-Flask sunucusunu başlatın
+3️⃣ Flask Sunucusunu Başlatın
 python app.py
-
-Model Eğitimi ve Veri Hazırlama Süreci
-
-Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak gerçekleştirilmiştir.
-
-train_bert_intent.py dosyasında; CSV formatındaki veri setinin okunması, metinlerin BERT tokenizer ile tokenize edilmesi, Transformer tabanlı BERT intent modelinin eğitilmesi ve eğitilen model ile tokenizer’ın diske kaydedilmesi adımları yer almaktadır.
-
-Bu yapı sayesinde model yeniden eğitilebilir ve projede uçtan uca (end-to-end) bir NLP akışı sağlanmaktadır.
-
-GPT Destekli Yanıt Üretimi
-
-Chatbot, OpenAI API anahtarı tanımlandığında GPT destekli yanıt üretimi yapmaktadır.
-
-Kural tabanlı bilgi cevapları GPT ile daha doğal hale getirilir.
-Intent güven değeri düşükse veya intent belirlenemezse GPT fallback mekanizması devreye girer.
-
-Backend Çalışma Yapısı
-
-Flask tabanlı backend, frontend (HTML) tarafından gönderilen istekleri REST API üzerinden karşılamakta ve chatbot akışını yönetmektedir.
-
-Geliştirici
 
 Bu proje, akademik bir çalışma ve kişisel uygulama geliştirme kapsamında hazırlanmıştır.
