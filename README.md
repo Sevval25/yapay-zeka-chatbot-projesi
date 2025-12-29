@@ -36,7 +36,7 @@ Bu projenin temel amaçları şunlardır:
 - **PyTorch** – Model eğitimi ve çıkarım
 - **Flask** – Backend API
 - **OpenAI API** – GPT tabanlı yanıt üretimi
-- **HTML – Frontend
+- **HTML** – Frontend
 - **CSV** – Intent eğitim verisi
 
 ---
@@ -84,16 +84,20 @@ pythonProject4/
 │
 └── README.md
 │   Proje dokümantasyonu
-
-## ▶️ Uygulamanın Çalıştırılması (Yerel)
+▶️ Uygulamanın Çalıştırılması (Yerel)
 1️⃣ Gerekli kütüphaneleri yükleyin
+bash
+Kodu kopyala
 pip install -r requirements.txt
-
 2️⃣ BERT Intent Modelini Eğitin
+bash
+Kodu kopyala
 python train_bert_intent.py
-
+3️⃣ Flask Sunucusunu Başlatın
+bash
+Kodu kopyala
+python app.py
 📊 Model Eğitimi ve Veri Hazırlama Süreci
-
 Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak
 gerçekleştirilmiştir.
 
@@ -111,7 +115,6 @@ Bu yapı sayesinde model, uygulama ortamında yeniden eğitilebilir ve
 projede uçtan uca (end-to-end) bir NLP akışı sağlanmaktadır.
 
 🤖 GPT Destekli Yanıt Üretimi
-
 Chatbot, OpenAI API anahtarı tanımlandığında GPT destekli yanıt üretimi
 yapmaktadır.
 
@@ -120,14 +123,11 @@ Kural tabanlı bilgi cevapları GPT ile daha doğal hale getirilir
 Intent güven değeri düşükse veya intent belirlenemezse
 GPT fallback mekanizması devreye girer
 
-🚀 Flask Sunucusunu Başlatma
-python app.py
-
-
+🚀 Backend Çalışma Yapısı
 Flask tabanlı backend, frontend (HTML) tarafından gönderilen istekleri
 REST API üzerinden karşılamakta ve chatbot akışını yönetmektedir.
 
 👩‍💻 Geliştirici
-
 Bu proje, akademik bir çalışma ve kişisel uygulama geliştirme
 kapsamında hazırlanmıştır.
+
