@@ -84,6 +84,7 @@ pythonProject4/
 │
 └── README.md
 │   Proje dokümantasyonu
+
 ▶️ Uygulamanın Çalıştırılması (Yerel):
 1️⃣ Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
