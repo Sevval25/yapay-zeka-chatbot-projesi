@@ -1,3 +1,9 @@
+## Uygulama Arayüzü
+
+Bu uygulama kullanıcıların hızlı ve güvenli şekilde hizmet bulmasını sağlar.
+
+![sevval yapayzeka](https://github.com/user-attachments/assets/b3dc2deb-ae83-490d-be3b-6b11b131f637)
+
 # 🤖 Transformer Tabanlı AI Destekli Chatbot Uygulaması
 
 Bu proje, CSV formatında oluşturulmuş veri seti kullanılarak eğitilen
