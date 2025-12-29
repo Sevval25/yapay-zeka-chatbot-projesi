@@ -101,13 +101,19 @@ python app.py
 
 
 ## 📊MODEL EĞİTİMİ VE VERİ HAZIRLAMA SÜRECİ
-Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak
+
+-Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak
 gerçekleştirilmiştir.
-train_bert_intent.py dosyasında aşağıdaki adımlar yer almaktadır:
-CSV formatındaki veri setinin okunması
-Metinlerin BERT tokenizer ile tokenize edilmesi
-Transformer tabanlı BERT intent modelinin eğitilmesi
-Eğitilen model ve tokenizer’ın diske kaydedilmesi
+
+-train_bert_intent.py dosyasında aşağıdaki adımlar yer almaktadır:
+
+-CSV formatındaki veri setinin okunması
+
+-Metinlerin BERT tokenizer ile tokenize edilmesi
+
+-Transformer tabanlı BERT intent modelinin eğitilmesi
+
+-Eğitilen model ve tokenizer’ın diske kaydedilmesi
 
 ---
 
