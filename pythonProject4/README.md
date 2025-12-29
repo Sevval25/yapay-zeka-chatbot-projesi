@@ -1,53 +1,39 @@
-Transformer Tabanlı AI Destekli Chatbot Uygulaması
-
+🤖 Transformer Tabanlı AI Destekli Chatbot Uygulaması
 Bu proje, CSV formatında oluşturulmuş veri seti kullanılarak eğitilen Transformer tabanlı (BERT) bir intent sınıflandırma modeli ve GPT destekli yanıt üretimi içeren AI tabanlı bir chatbot uygulamasıdır.
+
 Chatbot, kullanıcıdan gelen mesajları analiz ederek niyet (intent) tespiti yapmakta ve bağlama uygun yanıtları otomatik olarak üretmektedir.
 
 Uygulama; NLU (Doğal Dil Anlama), Diyalog Yönetimi ve NLG (Doğal Dil Üretimi) adımlarını içeren uçtan uca bir chatbot mimarisi ile geliştirilmiştir.
+
 Frontend tarafı HTML tabanlıdır ve backend ile REST API üzerinden haberleşmektedir.
 
 🎯 Projenin Amacı
-
 Bu projenin temel amaçları şunlardır:
 
 CSV dosyası üzerinden chatbot için veri seti oluşturulması
-
 Transformer tabanlı BERT modeli ile intent sınıflandırmasının öğretilmesi
-
 Kullanıcı mesajlarının doğal dil işleme yöntemleriyle analiz edilmesi
-
 Kural tabanlı bilgi cevaplarının GPT ile daha doğal hale getirilmesi
-
 Belirsiz sorular için GPT destekli fallback mekanizmasının kurulması
-
-Akademik bir proje kapsamında modern NLP tabanlı bir chatbot uygulaması geliştirilmesi
-
+Akademik bir proje kapsamında modern NLP tabanlı bir chatbot geliştirilmesi
 🧠 Kullanılan Teknolojiler
-
 Python
-
 Transformers (Hugging Face) – BERT intent modeli
-
 PyTorch – Model eğitimi ve çıkarım
-
 Flask – Backend API
-
 OpenAI API – GPT tabanlı yanıt üretimi
-
-HTML / CSS / JavaScript – Frontend
-
+HTML – Frontend
 CSV – Intent eğitim verisi
-
 📁 Proje Dosya Yapısı
 pythonProject4/
 │
 ├── data/
 │   └── intents.csv
-│     Intent eğitimi için kullanılan CSV veri seti
+│      Intent eğitimi için kullanılan CSV veri seti
 │
 ├── models/
 │   └── bert_intent/
-│     Eğitilmiş BERT modeli ve tokenizer dosyaları
+│      Eğitilmiş BERT modeli ve tokenizer dosyaları
 │
 ├── step1_preprocessing.py
 │   Metin temizleme ve ön işleme işlemleri
@@ -72,41 +58,40 @@ pythonProject4/
 │
 ├── frontend/
 │   └── index.html
-│     Chatbot kullanıcı arayüzü
+│      Chatbot kullanıcı arayüzü
 │
 ├── requirements.txt
 │   Projede kullanılan Python kütüphaneleri
 │
 └── README.md
 │   Proje dokümantasyonu
+🛠 Kurulum ve Çalıştırma (Yerel)
+1. Gerekli kütüphaneleri yükleyin pip install -r requirements.txt
 
-▶️ Uygulamanın Çalıştırılması (Yerel)
+2. BERT Intent Modelini Eğitin python train_bert_intent.py
 
-Gerekli kütüphaneleri yükleyin:
+3. Flask Sunucusunu Başlatın python app.py
 
-pip install -r requirements.txt
+📊MODEL EĞİTİMİ VE VERİ HAZIRLAMA SÜRECİ
+-Model eğitimi ve veri hazırlama süreci Python scriptleri kullanılarak gerçekleştirilmiştir.
 
+-train_bert_intent.py dosyasında aşağıdaki adımlar yer almaktadır:
 
-BERT intent modelini eğitin:
+-CSV formatındaki veri setinin okunması
 
-python train_bert_intent.py 
-📊 Model Eğitimi ve Veri Hazırlama Süreci Python scriptleri kullanılarak gerçekleştirilmiştir.
-train_bert_intent.py dosyasında; CSV formatındaki veri setinin okunması, metinlerin tokenize edilmesi, Transformer tabanlı BERT modelinin eğitilmesi ve eğitilen modelin kaydedilmesi adımları yer almaktadır.
-Bu yaklaşım, modelin doğrudan uygulama ortamında yeniden eğitilebilmesini sağlamakta ve projenin üretim (production) mantığına daha uygun bir yapı sunmaktadır.
+-Metinlerin BERT tokenizer ile tokenize edilmesi
+
+-Transformer tabanlı BERT intent modelinin eğitilmesi
+
+-Eğitilen model ve tokenizer’ın diske kaydedilmesi
+
 🤖 GPT Destekli Yanıt Üretimi
-
 Chatbot, OpenAI API anahtarı tanımlandığında GPT destekli yanıt üretimi yapmaktadır.
 
 Kural tabanlı bilgi cevapları GPT ile daha doğal hale getirilir
 
-Intent belirlenemezse GPT fallback mekanizması devreye girer.
+Intent güven değeri düşükse veya intent belirlenemezse GPT fallback mekanizması devreye girer
+
 👩‍💻 Geliştirici
-
 Bu proje, akademik bir çalışma ve kişisel uygulama geliştirme kapsamında hazırlanmıştır.
-Amaç, CSV tabanlı veri kullanımı, Transformer modelleri ve GPT entegrasyonunun bir chatbot uygulamasında birlikte nasıl kullanılabileceğini göstermektir.
 
-
-
-Flask sunucusunu başlatın:
-
-python app.py
