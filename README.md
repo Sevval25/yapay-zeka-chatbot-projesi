@@ -86,16 +86,16 @@ pythonProject4/
 │   Proje dokümantasyonu
 ```
 ---
-
-▶️ Uygulamanın Çalıştırılması (Yerel)
-1. Gerekli kütüphaneleri yükleyin
+## 🛠 Kurulum ve Çalıştırma (Yerel)
+**1. Gerekli kütüphaneleri yükleyin**
 pip install -r requirements.txt
 
-2. BERT Intent Modelini Eğitin
+**2. BERT Intent Modelini Eğitin**
 python train_bert_intent.py
 
-3. Flask Sunucusunu Başlatın
+**3. Flask Sunucusunu Başlatın**
 python app.py
+
 
 
 
