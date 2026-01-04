@@ -37,13 +37,21 @@ Bu projenin temel amaçları şunlardır:
 
 ## 🧠 Kullanılan Teknolojiler
 
-- **Python**
-- **Transformers (Hugging Face)** – BERT intent modeli
-- **PyTorch** – Model eğitimi ve çıkarım
-- **Flask** – Backend API
-- **OpenAI API** – GPT tabanlı yanıt üretimi
-- **HTML** – Frontend
-- **CSV** – Intent eğitim verisi
+**Python**: Tüm sistemin ana programlama dili.
+
+**Transformers** (Hugging Face): dbmdz/bert-base-turkish-cased modeli kullanılarak niyet sınıflandırma (intent classification) yapılmıştır.
+
+**PyTorch**: BERT modelinin eğitimi, tensör işlemleri ve çıkarım (inference) süreçlerini yönetmek için kullanılmıştır.
+
+**OpenAI API**: Kullanıcı sorgularına doğal ve akıcı yanıtlar üretmek için GPT mimarisinden faydalanılmıştır.
+
+**Flask & Flask-CORS**: Modelin web üzerinden erişilebilir olmasını sağlayan Backend API yapısı.
+
+**HTML & CSS**: Kullanıcı dostu arayüz tasarımı (Frontend).
+
+**CSV**: Modelin eğitimi için kullanılan 1492 satırlık etiketlenmiş niyet veri seti.
+
+**Matplotlib & Seaborn**: Modelin %98.27 başarı oranını belgeleyen Confusion Matrix ve Loss grafiklerinin görselleştirilmesi.
 
 ---
 
@@ -120,6 +128,14 @@ gerçekleştirilmiştir.
 -Transformer tabanlı BERT intent modelinin eğitilmesi
 
 -Eğitilen model ve tokenizer’ın diske kaydedilmesi
+**📈 Elde Edilen Başarı (Validation Results)**
+Model, test verileri üzerinde yapılan değerlendirmede şu sonuçları vermiştir:
+
+**Accuracy (Doğruluk): %98.27**
+
+**F1-Score: %98.28**
+
+**AUC Score: 1.00 (Kusursuz sınıflandırma başarısı)**
 
 ---
 
