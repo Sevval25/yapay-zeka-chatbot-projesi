@@ -1,74 +1,100 @@
-import streamlit as st
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
+# Diğer modüllerimiz
+from step1_preprocessing import preprocess_text
 from step2_nlu import predict_intent_bert
 from dialog_manager import decide_action
 from step4_nlg import generate_response
 from step5_logging import log_conversation
+from constants import INFO_MAP
 
-# Sayfa Ayarları
-st.set_page_config(page_title="Müşteri Destek Asistanı", page_icon="🤖")
+app = Flask(__name__)
+CORS(app)
+app.config["JSON_AS_ASCII"] = False
 
-# 🔹 KURAL TABANLI SABİT CEVAPLAR
-INFO_MAP = {
-    "get_shipping_info": "Kargo süremiz 2–4 iş günü arasındadır.",
-    "get_discount_info": "İndirimli ürünlerimizi web sitemizden inceleyebilirsiniz.",
-    "get_campaign_info": "Güncel kampanyalarımız ana sayfamızda yer almaktadır.",
-    "get_price_info": "Ürün fiyat bilgileri ürün sayfasında yer almaktadır.",
-    "get_availability_info": "Stok durumu ürün sayfasında görüntülenmektedir.",
-    "support": "Destek ekibimiz size yardımcı olmaktan memnuniyet duyar."
-}
-
-# 🔹 Yardımcı Fonksiyonlar
-def rewrite_with_gpt(base_text, user_text):
-    prompt = f"Kullanıcı şunu sordu: '{user_text}'. Aşağıdaki cevabı nazik ve doğal bir şekilde ilet: '{base_text}'"
-    return generate_response(prompt)
 
 def fallback_with_gpt(user_text):
-    prompt = f"Kullanıcı mesajı: '{user_text}'. Nazikçe selam ver veya yardım teklif et."
-    return generate_response(prompt)
+    """
+    Model emin olamadığında (Fallback) veya selamlaşma gibi durumlarda
+    GPT devreye girer.
+    """
+    system_prompt = """
+    Sen kibar, profesyonel ve Türkçe konuşan bir e-ticaret müşteri temsilcisisin.
 
-# --- ARAYÜZ ---
-st.title("🤖 Akıllı Destek Asistanı")
-st.markdown("Sorularınızı aşağıya yazabilirsiniz.")
+    Görevin:
+    1. Kullanıcının sorusuna kısa, doğal ve yardımsever bir yanıt ver.
+    2. Eğer konu teknik bir işlemse (sipariş iptali, iade süreci vb.) detaylara girmeden "Müşteri hizmetlerimizle iletişime geçebilirsiniz" de.
+    3. Selamlaşmalara (Merhaba, nasılsın) samimi karşılık ver.
 
-# Sohbet Geçmişi (Streamlit'te mesajların kalması için)
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+    Cevabın maksimum 2-3 cümle olsun.
+    """
 
-# Eski mesajları ekrana bas
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+    # step4_nlg.py içindeki güncellediğimiz fonksiyona gönderiyoruz
+    return generate_response(system_prompt, user_text)
 
-# Kullanıcı Girişi
-user_input = st.chat_input("Mesajınızı buraya yazın...")
 
-if user_input:
-    # 1. Kullanıcı mesajını göster
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    with st.chat_message("user"):
-        st.markdown(user_input)
+@app.route("/chat", methods=["POST"])
+def chat():
+    # 1. Kullanıcıdan veriyi al
+    user_input = request.json.get("message", "").strip()
 
-    # 2. İşleme (Backend Mantığın)
-    with st.spinner("Düşünüyorum..."):
-        # Intent + confidence
-        intent, confidence = predict_intent_bert(user_input)
-        
-        # Karar
-        action = decide_action(intent, confidence)
+    if not user_input:
+        return jsonify({"response": "Lütfen boş bir mesaj göndermeyin."})
 
-        # Yanıt üretimi
-        if action in INFO_MAP:
-            base_response = INFO_MAP[action]
-            response = rewrite_with_gpt(base_response, user_input)
-        else:
-            response = fallback_with_gpt(user_input)
+    # 2. Önişleme ve NLU (BERT + Kurallar)
+    processed_input = preprocess_text(user_input)
+    intent, confidence = predict_intent_bert(processed_input)
 
-    # 3. Yanıtı Göster
-    with st.chat_message("assistant"):
-        st.markdown(response)
-        # İstersen güven skorunu küçük bir not olarak ekleyebilirsin:
-        st.caption(f"Intent: {intent} (%{int(confidence*100)})")
+    # intent burada artık "product_stock", "return_cancel" gibi yeni isimlerinle geliyor.
 
-    # 4. Geçmişe ve Loglara ekle
-    st.session_state.messages.append({"role": "assistant", "content": response})
-    log_conversation(user_input, response)
+    # 3. Karar Mekanizması (Güven skoru kontrolü)
+    action = decide_action(intent, confidence)
+
+    # DEBUG: Terminalde ne olup bittiğini gör
+    print(f"🔍 DEBUG: Girdi='{user_input}' -> Intent='{intent}' ({confidence:.2f}) -> Action='{action}'")
+
+    # 4. Yanıt Üretimi
+    response = ""
+    source = ""
+
+    if action == "fallback":
+        # BERT emin değilse veya kural yoksa -> GPT
+        print("🤖 Rota: GPT (Fallback)")
+        response = fallback_with_gpt(user_input)
+        source = "gpt_fallback"
+
+    elif action in INFO_MAP:
+        # BERT emin ve INFO_MAP içinde bu etiket var -> Hazır Cevap
+        # Örneğin action="product_stock" ise INFO_MAP["product_stock"] çalışır.
+        print(f"rule Rota: Kural Tabanlı ({action})")
+        response = INFO_MAP[action]
+        source = "rule_based"
+
+    else:
+        # Beklenmedik bir hata durumu
+        response = "Üzgünüm, şu an sistemde geçici bir sorun var. Lütfen daha sonra tekrar deneyin."
+        source = "error"
+
+    # 5. Loglama (Konuşma geçmişini kaydet)
+    log_conversation(user_input, response, intent, confidence)
+
+    # 6. Sonucu döndür
+    return jsonify({
+        "intent": intent,
+        "confidence": round(confidence, 2),
+        "action": action,
+        "source": source,
+        "response": response
+    })
+
+
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "active"})
+
+
+if __name__ == "__main__":
+    print("🚀 Chatbot Sunucusu Başlatılıyor...")
+    print("✅ Constants, NLU ve Data uyumu: TAMAM (product_stock, return_cancel v2)")
+    app.run(debug=True, port=5000)
