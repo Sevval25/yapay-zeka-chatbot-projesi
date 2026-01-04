@@ -1,48 +1,287 @@
 text,label
-"Kargo süresi ne kadar?",0
-"Kargo kaç günde gelir?",0
-"Siparişim ne zaman ulaşır?",0
-"Teslimat süresi nedir?",0
-"Kargo ücretsiz mi?",0
-
-
-"İndirim var mı?",1
-"Şu an indirim yapıyor musunuz?",1
-"İndirimli ürünler mevcut mu?",1
-"Kampanya indirimi var mı?",1
-"Ürünlerde indirim var mı?",1
-
-
-"Aktif kampanyalar neler?",2
-"Devam eden kampanyalar hangileri?",2
-"Özel kampanya var mı?",2
-"Aktif kampanyalar neler?",2
-"Devam eden kampanyalar hangileri?",2
-
-
-"Bu ürünün fiyatı ne kadar?",3
-"Ürün kaç TL?",3
-"Fiyat bilgisi alabilir miyim?",3
-"Bu ürünün fiyatı ne kadar?",3
-"Ürün kaç TL?",3
-
-
-"Stokta var mı?",4
-"Ürün mevcut mu?",4
-"Stok durumu nedir?",4
-"Stokta var mı?",4
-"Ürün mevcut mu?",4
-
-
-"Müşteri hizmetlerine bağlanmak istiyorum",5
-"Canlı destek var mı?",5
-"Destek alabilir miyim?",5
-"Müşteri hizmetlerine bağlanmak istiyorum",5
-"Canlı destek var mı?",5
-
-
-"Merhaba",6
-"Nasılsınız?",6
-"Bilgi alabilir miyim?",6
-"Merhaba",6
-"Nasılsınız?",6
+"Hesap nasıl oluşturabilirim?",3
+"Hangi ödeme yöntemlerini kabul ediyorsunuz?",3
+"Siparişimi nasıl takip edebilirim?",0
+"İade politikası nedir?",4
+"Siparişimi iptal edebilir miyim?",4
+"Kargo ne kadar sürer?",0
+"Uluslararası kargo hizmetiniz var mı?",0
+"Paketim kaybolursa veya hasar görürse ne yapmalıyım?",0
+"Sipariş verdikten sonra teslimat adresimi değiştirebilir miyim?",0
+"Müşteri hizmetleriyle nasıl iletişime geçebilirim?",5
+"Hediye paketi hizmetiniz var mı?",2
+"Telefonla sipariş verebilir miyim?",5
+"Kişisel ve ödeme bilgilerim güvenli mi?",3
+"Hesap oluşturmadan sipariş verebilir miyim?",3
+"Toplu veya toptan alım indirimleriniz var mı?",1
+"Siparişimdeki bir ürünü değiştirebilir veya iptal edebilir miyim?",4
+"Ürün incelemesi nasıl bırakabilirim?",5
+"Birden fazla promosyon kodu kullanabilir miyim?",1
+"Yanlış ürün alırsam ne yapmalıyım?",4
+"Hızlı kargo hizmetiniz var mı?",0
+"Stokta olmayan bir ürün sipariş edebilir miyim?",2
+"E-posta bülteniniz hakkında bilgi verir misiniz?",1
+"Aklımı değiştirirsem ürünü iade edebilir miyim?",4
+"Canlı sohbet desteğiniz var mı?",5
+"İndirim kodum çalışmıyorsa ne yapmalıyım?",1
+"Promosyon kodum geçersiz diyor",1
+"Kupon kodum hata veriyor",1
+"İndirim kodu kabul etmiyor",1
+"Kampanya kodum neden çalışmıyor?",1
+"İndirim kodu uygulanmıyor",1
+"Final satış ürünlerini iade edebilir miyim?",4
+"Ürünleriniz için montaj hizmeti sunuyor musunuz?",2
+"Artık üretilmeyen bir ürünü sipariş edebilir miyim?",2
+"Fiş olmadan ürünü iade edebilir miyim?",4
+"Ürünü farklı bir ülkeye sipariş edebilir miyim?",0
+"Siparişime hediye mesajı ekleyebilir miyim?",2
+"Satın almadan önce ürün demosu talep edebilir miyim?",2
+"'Yakında gelecek' olarak listelenmiş bir ürünü sipariş edebilir miyim?",2
+"Siparişim için fatura talep edebilir miyim?",3
+"'Sınırlı sayıda üretim' olarak etiketlenmiş bir ürünü sipariş edebilir miyim?",2
+"Orijinal ambalajı olmayan ürünü iade edebilir miyim?",4
+"Stokta olmayan bir ürünü bana ayırt edebilir misiniz?",2
+"'Ön sipariş' ve stokta olan ürünleri birlikte sipariş edebilir miyim?",2
+"Kargo sırasında ürün hasar görürse ürünü iade edebilir miyim?",4
+"Stokta olmayan bir ürünün yeniden stoklanmasını talep edebilir miyim?",2
+"'Tedarik dışı' ürün sipariş edebilir miyim?",2
+"Ürün hasarlıysa onarım veya değişim talep edebilir miyim?",4
+"Stokta olmayan ama ön sipariş ile alınabilen bir ürünü sipariş edebilir miyim?",2
+"Hediye olarak alınan ürünü iade edebilir miyim?",4
+"Artık üretilmeyen bir ürünü talep edebilir miyim?",2
+"Ürün tükenmişse sipariş verebilir miyim?",2
+"Hediye kartı ile alınan ürünü iade edebilir miyim?",4
+"Bedenimde ürün yoksa talep edebilir miyim?",2
+"'Yakında gelecek' ve ön sipariş ile alınabilen ürün sipariş edebilir miyim?",2
+"Özel sipariş veya kişiselleştirilmiş ürün talep edebilir miyim?",2
+"'Geçici olarak mevcut değil' olarak listelenmiş ürünü sipariş edebilir miyim?",2
+"Yanlış kullanım nedeniyle hasar görmüş ürünü iade edebilir miyim?",4
+"'Yakında gelecek' ama ön sipariş ile alınamayan ürün talep edebilir miyim?",2
+"'Beklemede' olarak listelenmiş ürünü sipariş edebilir miyim?",2
+"Orijinal fişim yoksa ürünü iade edebilir miyim?",4
+"'Sınırlı sayıda üretim' ürünün yeniden stoklanmasını talep edebilir miyim?",2
+"'Üretimi durdurulmuş' ürün web sitesinde görünüyorsa sipariş verebilir miyim?",2
+"Web sitenizde listelenmeyen bir ürünü talep edebilir miyim?",2
+"Stokta yok ama backorder ile alınabilen bir ürünü sipariş edebilir miyim?",2
+"Set veya paket halinde alınan ürünü iade edebilir miyim?",4
+"Stokta olmayan bir ürünün yeniden stoklanmasını talep edebilir miyim?",2
+"'Yakında gelecek' ve ön sipariş ile sipariş edebilir miyim?",2
+"Kargo sırasında yanlış kullanım nedeniyle hasar görmüş ürünü iade edebilir miyim?",4
+"Stokta olmayan bir ürünü ayırtabilir miyim?",2
+"'Ön sipariş' ve backorder ile alınabilen ürünü sipariş edebilir miyim?",2
+"Mağaza kredisi ile alınan ürünü iade edebilir miyim?",4
+"Stokta olmayan bir ürünün yeniden stoklanmasını talep edebilir miyim?",2
+"'Tükenmiş' ama ön sipariş ile sipariş edilebilir ürünü alabilir miyim?",2
+"Promosyon hediye kartı ile alınan ürünü iade edebilir miyim?",4
+"İstediğim renkte ürün yoksa talep edebilir miyim?",2
+"'Yakında gelecek' ama ön sipariş ile alınamayan ürünü sipariş edebilir miyim?",2
+"Kampanya sırasında alınan ürünü iade edebilir miyim?",4
+"Sipariş vereli 10 gün oldu hala kargoya verilmedi.",0
+"Kargom şubede bekliyor dağıtıma çıkmadı bir türlü.",0
+"Hangi kargo şirketiyle gönderim yapıyorsunuz PTT mi?",0
+"Kargo takip numarası hatalı diyor kontrol eder misiniz?",0
+"Ürün elime ulaşmadı ama teslim edildi görünüyor.",0
+"Hızlı teslimat yazıyordu ama 3 gündür hazırlanıyor.",0
+"Kargo ücreti ödememek için limit ne kadar?",0
+"Paketim paramparça geldi tutanak tutturdum.",0
+"Adres değişikliği yapmak istiyorum kargoya vermeden.",0
+"Şehir dışına kargo kaç günde ulaşır?",0
+"Kargom nerede kaldı gelmedi?",0
+"Kargo şirketi paketi kapıya bırakıp gitmiş.",0
+"Teslimat çok yavaş bu kargoyla çalışmayın.",0
+"Kurye beni aramadı evde yoktunuz demiş.",0
+"Paketleme çok kötüydü ürün dökülmüş.",0
+"Aynı gün kargo dediniz hala ses yok.",0
+"Kargom kayboldu sanırım hareket yok.",0
+"Lütfen surat kargo ile göndermeyin.",0
+"Sepette indirim uygulanmıyor neden?",1
+"İndirim kuponumun süresi mi doldu hata veriyor.",1
+"İlk alışverişe özel indiriminiz var mı?",1
+"Kampanya ne zaman bitiyor ona göre alacağım.",1
+"Promosyon kodu geçersiz uyarısı alıyorum.",1
+"İndirimli ürünlerde kupon geçerli değil mi?",1
+"Bana özel tanımlanan indirim hesabımda görünmüyor.",1
+"Sepette yüzde 10 indirim düşmedi.",1
+"İndirim kodu nereye yazılıyor bulamadım.",1
+"Kampanya kodunu girmeyi unuttum ekleyebilir misiniz?",1
+"İndirim kuponu tanımlar mısınız?",1
+"Fiyatı düşünce haber verin.",1
+"Sepetimdeki indirim kayboldu.",1
+"Bu kupon neden çalışmıyor?",1
+"Kampanya bitti mi fiyat artmış.",1
+"Bu ürünün L bedeni ne zaman stoğa girer?",2
+"Stok gelince haber ver butonu çalışmıyor.",2
+"Ürün tükendi görünüyor tekrar gelecek mi?",2
+"Mağazanızda bu ürünün stoğu var mı?",2
+"Stokta yok diyor ama sepete ekleyebiliyorum.",2
+"Gelince haber ver dedim mail gelmedi.",2
+"Bu rengin üretimi durdu mu stoklarda yok?",2
+"Çok satan ürünler hemen tükeniyor ayırtma şansımız var mı?",2
+"Stok bilgisi güncel mi sipariş versem iptal olur mu?",2
+"Ürün orijinal mi garanti belgesi var mı?",2
+"Bedenler ne zaman güncellenir?",2
+"Stokta olmayan ürünü nasıl aldım?",2
+"Lütfen stokları yenileyin artık.",2
+"Depoda varsa gönderir misiniz?",2
+"Ürün temini ne kadar sürer?",2
+"Kartımdan para çekildi ama sipariş oluşmadı.",3
+"Kapıda ödeme seçeneğiniz neden yok?",3
+"Havale ile ödeme yaptım dekontu nereye atayım?",3
+"Kredi kartına taksit seçenekleri çıkmıyor.",3
+"Ödeme sayfasında hata alıyorum ilerlemiyor.",3
+"Faturamı kurumsal olarak kestirmek istiyorum.",3
+"Üyeliksiz sipariş verdim takibini nasıl yapacağım?",3
+"Hesap şifremi unuttum sıfırlama maili gelmiyor.",3
+"Siparişi tamamla diyorum sayfa donuyor.",3
+"Ödeme bilgilerimi kaydetmek güvenli mi?",3
+"Üye girişi yapamıyorum hata veriyor.",3
+"Şifremi değiştirmek istiyorum.",3
+"Faturam gelmedi mail atar mısınız?",3
+"Taksit sayısı neden az?",3
+"Ürünü beğenmedim iade etmek istiyorum.",4
+"İade kodu alamıyorum sistem hata veriyor.",4
+"Yanlış beden göndermişsiniz değişim istiyorum.",4
+"İade süresi 14 gün mü geçti mi acaba?",4
+"Kusurlu ürün geldi iade işlemini başlatır mısınız?",4
+"Siparişi iptal ettim para iadesi ne zaman yatar?",4
+"İade kargosunu hangi firmayla göndermem gerekiyor?",4
+"Vazgeçtim kargoya verilmeden iptal edin.",4
+"Değişim yokmuş sadece iade mi yapabiliyoruz?",4
+"İade reddedildi diyor sebebi nedir?",4
+"Para iadem hala yatmadı.",4
+"Ürün defolu çıktı geri göndereceğim.",4
+"İptal etmek istiyorum yanlış aldım.",4
+"Değişim yapmak istiyorum beden olmadı.",4
+"Müşteri hizmetlerine bir türlü bağlanamıyorum.",5
+"Canlı destek hattınız çalışmıyor mu?",5
+"Telefonla sipariş verebiliyor muyuz?",5
+"Yetkili biriyle görüşmek istiyorum şikayetim var.",5
+"Mesajlarıma neden kimse cevap vermiyor?",5
+"Çağrı merkeziniz sürekli meşgul çalıyor.",5
+"WhatsApp hattınız var mı oradan yazsam?",5
+"Sorunum çözülmedi tekrar destek talebi oluşturuyorum.",5
+"Müşteri temsilcisi çok kaba davrandı.",5
+"Botla anlaşamıyorum insan yok mu?",5
+"Kimseye ulaşamıyorum yardım edin.",5
+"Destek talebime dönüş olmadı.",5
+"İletişim numaranız nedir?",5
+"Kargo takip numarasını kopyalayıp yapıştırıyorum ama geçersiz diyor.",0
+"Paketim dağıtıma çıktı mesajı geldi ancak akşam oldu hala kimse yok.",0
+"Hangi kargo şirketiyle çalışıyorsunuz? Sürat kargo kapıma getirmiyor.",0
+"Ürünün teslimat adresini iş adresimle değiştirmem mümkün mü?",0
+"Kargo ücretsiz olması için sepete ne kadar daha ekleme yapmalıyım?",0
+"Siparişim 5 gündür hazırlanıyor aşamasında kaldı, kargolanmadı.",0
+"Kurye paketi apartman girişine bırakıp gitmiş, bu nasıl hizmet?",0
+"Ürün kargoda hasar görmüş, kutusu paramparça geldi.",0
+"Kargomun tahmini varış süresi neden sürekli erteleniyor?",0
+"Hızlı teslimat için ekstra ücret ödedim ama normal kargo gibi geldi.",0
+"Yurtiçi kargo takip linki telefonuma ulaşmadı.",0
+"Paketim başka birine teslim edilmiş görünüyor, ben almadım.",0
+"Kargo poşeti açık geldi, içinden ürün eksik çıkabilir.",0
+"Hafta sonu dağıtım yapıyor musunuz yoksa pazartesiyi mi bekleyim?",0
+"Adres yetersizliği nedeniyle paket geri gitmiş, adresim gayet açık.",0
+"Kargo takip sayfasında hareket yok, transfer merkezinde takıldı.",0
+"Teslimat saatini kendimiz seçebiliyor muyuz?",0
+"Gelen ürünün kutusu ıslanmış ve yırtılmıştı, teslim almadım.",0
+"Siparişimdeki ürünlerden biri kargoda kaybolmuş.",0
+"Lütfen PTT kargo ile göndermeyin, çok geç getiriyorlar.",0
+"İndirim kodunu girdiğimde 'bu kupon için geçerli kategori değil' diyor.",1
+"Sepetteki 2 al 1 öde kampanyası neden aktifleşmiyor?",1
+"Bana özel tanımlanan %15 indirim hesabımda görünmüyor.",1
+"İlk alışverişe özel indirim kuponu mailime hala gelmedi.",1
+"Kampanya kodunun süresi mi doldu? Daha yeni yayınlanmıştı.",1
+"Üyeliğime tanımlı çekleri ödeme sayfasında seçemiyorum.",1
+"Siyah cuma indirimleri ne zaman başlayacak?",1
+"Fiyatı düşünce haber ver butonuna bastım ama mail gelmedi.",1
+"Kupon kodu büyük-küçük harf duyarlı mı? Kabul etmiyor.",1
+"Kampanya dahilindeki ürünleri sepete attım ama fiyat düşmedi.",1
+"Arkadaş davet kodumla üye olanlar oldu ama ödülüm yüklenmedi.",1
+"Influencer kodu geçersiz diyor, reklamda bugün son gün yazıyordu.",1
+"Sepetimdeki indirimli ürünlerin fiyatı bir anda arttı.",1
+"Hediye çekiyle ödeme yaparken kalan tutarı kartla ödeyebilir miyim?",1
+"Bu kupon sadece mobil uygulamada mı geçerli?",1
+"Öğrenci indirimi için belgeyi nereye yüklemeliyim?",1
+"Geçen haftaki kampanya tekrar olacak mı? Kaçırdım.",1
+"Sepetteki otomatik indirim neden uygulanmadı?",1
+"İndirim kodu girmeyi unuttum, sipariş sonrası tanımlanır mı?",1
+"Kuponumun neden reddedildiğini anlamadım, alt limit mi var?",1
+"Bu ürünün XL bedeni hiçbir yerde yok, tekrar üretilecek mi?",2
+"Mavi renk stoğu tükenmiş, gelince haber ver butonu çalışıyor mu?",2
+"Stokta olmayan bir ürün için ön sipariş verebilir miyim?",2
+"Ürünün stok bilgisi güncel mi? Alınca iptal edilmesin.",2
+"Mağazalardaki stok durumunu web sitesinden görebilir miyim?",2
+"Siyah olanı bitti mi? Diğer renkleri istemiyorum.",2
+"Ürün sayfasında son 2 adet diyor, gerçekten öyle mi?",2
+"Kumaş içeriği %100 pamuk mu? Açıklamada yazmıyor.",2
+"Bu modelin üretimi durduruldu mu, hiç stok gelmiyor?",2
+"Gelince haber ver maili aldım ama siteye girince yine yoktu.",2
+"Ürünün ölçü tablosu neden yok? Hangi beden almalıyım?",2
+"Stoktaki ürünlerin skt tarihi nedir? Bayat gelmesin.",2
+"Ürün orijinal mi? Barkodunu sorgulayabilir miyim?",2
+"Depo sayımından sonra stoklar ne zaman güncellenir?",2
+"Yazlık sezon ürünleri ne zaman stoklara girecek?",2
+"Çok beğendiğim ürün hemen bitmiş, lütfen stok ekleyin.",2
+"Stokta olmayan ürünlerin altına neden fiyat yazmıyorsunuz?",2
+"Farklı mağazadan ürün temini yapıyor musunuz?",2
+"Ürünün kutusuz ağırlığı ne kadar? Açıklamada belirtilmemiş.",2
+"Garanti belgesi kutunun içinde mi geliyor?",2
+"Ödeme sayfasında kart bilgilerini girince sayfa donuyor.",3
+"3D Secure onay kodu telefonuma bir türlü gelmiyor.",3
+"Kredi kartına vade farksız taksit imkanınız var mı?",3
+"Havale bildirimi yaptım ama hala onay bekliyor yazıyor.",3
+"Faturamı kurumsal olarak düzenlemek istiyorum, VKN bilgilerini yazdım.",3
+"Siparişi tamamla butonuna basınca sistem hata veriyor.",3
+"Hediye kartı bakiyemi nasıl kontrol edebilirim?",3
+"Masterpass ile ödeme yaparken kartım reddediliyor.",3
+"Yabancı banka kartı ile alışveriş yapabiliyor muyuz?",3
+"Fatura mail adresime gelmedi, tekrar gönderir misiniz?",3
+"Hesabımı kalıcı olarak kapatmak istiyorum.",3
+"Üyeliksiz sipariş verdim, takip için şifre almam gerekiyor mu?",3
+"Banka hesabımdan iki kere para çekilmiş, kontrol eder misiniz?",3
+"Şifremi unuttum maili spam klasörüne de düşmedi.",3
+"Ödeme ekranında adres bilgilerim çıkmıyor.",3
+"Taksit seçenekleri neden sadece belli kartlara özel?",3
+"Cüzdan bakiyemi banka hesabıma nasıl geri aktarırım?",3
+"Papara veya Paycell ile ödeme kabul ediyor musunuz?",3
+"Ödeme yöntemi olarak kapıda ödemeyi seçemiyorum.",3
+"TC kimlik numarası girmek zorunlu mu?",3
+"Ürün kusurlu geldi, iade mi edeyim değişim mi yaparsınız?",4
+"İade kodunu kargoya verdim ama para iadesi yatmadı.",4
+"Yanlış beden göndermişsiniz, değişim süreci nasıl işliyor?",4
+"Siparişi iptal etmek istiyorum ama kargoya verilmiş görünüyor.",4
+"İade süresi 14 gün mü? Tatilde olduğum için geciktim.",4
+"Kozmetik ürünlerde paketi açılmamışsa iade olur mu?",4
+"İade talebim neden reddedildi? Ürünü hiç kullanmadım.",4
+"Eksik ürün gönderilmiş, eksik parçanın tedariğini istiyorum.",4
+"İade kargo ücretini benim ödeyeceğim söyleniyor, neden?",4
+"Vazgeçtim, siparişimdeki bir ürünü iptal edebilir misiniz?",4
+"İade ettiğim ürün size ulaşmış ama onaylanmamış.",4
+"Değişim için ürünü geri gönderdim, yeni ürün ne zaman çıkar?",4
+"Ürün elime ulaştıktan kaç gün sonra iade hakkım var?",4
+"Faturası kaybolan ürünü nasıl iade edebilirim?",4
+"İade butonu panelde görünmüyor, süresi mi doldu?",4
+"Hijyen bantlı ürünleri iade alıyor musunuz?",4
+"Kampanya ile aldığım seti tekli iade edebilir miyim?",4
+"Yanlış ürün aldım, iptal edip tekrar sipariş vereceğim.",4
+"Para iadesi banka kartına mı yatar yoksa cüzdana mı?",4
+"İptal edilen siparişin ücreti ne zaman hesaba geçer?",4
+"Müşteri temsilcisine bağlanmak için çok bekliyorum, kimse yok mu?",5
+"Canlı destek hattınız hafta sonu da hizmet veriyor mu?",5
+"Telefonla ulaşılamıyor, sürekli meşgul çalıyor.",5
+"Şikayetimle ilgili acil bir yetkili ile görüşmek istiyorum.",5
+"Yazdığım mesajlara sadece bot cevap veriyor, insan yok mu?",5
+"WhatsApp destek hattınızın numarası nedir?",5
+"Müşteri hizmetleri yetkilisi sorunumu çözemedi.",5
+"Çağrı merkezinden aranma talebi nasıl oluşturabilirim?",5
+"Mail yoluyla destek almak istiyorum, adresiniz nedir?",5
+"Size ulaşmak imkansız, 1 saattir telefonda bekliyorum.",5
+"Canlı sohbet butonu web sitesinde neden çıkmıyor?",5
+"Geri bildirim anketi doldurmak istiyorum.",5
+"Temsilciniz çok kaba konuştu, şikayetçiyim.",5
+"Sorunumun çözülmesini bekliyorum hala dönüş olmadı.",5
+"İletişim formunu doldurdum ama hata verdi.",5
+"Destek talebim sonuçlanmadan kapatılmış.",5
+"Neden telefonla sipariş almıyorsunuz?",5
+"Sisteminiz çok yavaş, temsilciye bağlanana kadar kapanıyor.",5
+"Yazılı destek almak istiyorum, sesli görüşme yapamıyorum.",5
+"Sosyal medya üzerinden şikayet oluşturabilir miyim?",5
