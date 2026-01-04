@@ -1,9 +1,8 @@
-{
-  "0": "get_shipping_info",
-  "1": "get_discount_info",
-  "2": "get_campaign_info",
-  "3": "get_price_info",
-  "4": "get_availability_info",
-  "5": "support",
-  "6": "fallback"
+ID2LABEL = {
+    0: "shipping",            # Kargo
+    1: "discount_campaign",   # İndirim ve Kampanya
+    2: "product_stock",       # Stok (Eskiden stock_availability idi, artık product_stock)
+    3: "account_payment",     # Hesap ve Ödeme
+    4: "return_cancel",       # İade ve İptal
+    5: "customer_support"     # Müşteri Hizmetleri
 }
