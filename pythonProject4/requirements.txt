@@ -1,7 +1,12 @@
-streamlit
 torch
 transformers
-openai
-python-dotenv
+datasets
 pandas
 numpy
+scikit-learn
+matplotlib
+seaborn
+flask
+flask-cors
+openai
+python-dotenv
